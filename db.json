@@ -1,14 +1,23 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "data": {
+        "_repeat": 10,
+        "date": "date",
+        "job": {
+            "company": "companyName",
+            "department": "companyDepartment",
+            "phone_numbers": "functionArray|3|phoneHome",
+            "position": "personTitle"
+        },
+        "location": {
+            "addressBuilding": "addressBuilding",
+            "city": "addressCity",
+            "country": "addressCountry",
+            "state": "addressState",
+            "street": "addressStreetName"
+        },
+        "personDegree": "personDegree",
+        "personSkill": "personSkill",
+        "personTitle": "personTitle"
+    },
+    "token": "vf6vSsKtWlqd-m-jB3n8lw"
 }
